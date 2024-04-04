@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="timer.css">
+	<title>Stopwatch</title>
+</head>
+<body>
+	<section class="container-fluid">
+		<div class="container">
+			<h1 class="pd">StopWatch</h1>
+			<div id="stopwatch">
+				00:00:00
+			</div>
+			<div id="buttons">
+			<button onclick="startTimer()" class="btn">Start</button>
+            <button onclick="stopTimer()" class="btn">Stop</button>
+            <button onclick="lap()" class="btn">Laps</button>
+            <button onclick="resetTimer()" class="btn">Reset</button>
+			</div>
+			<div class="pp">
+				<!-- <h1 class="t-c">LAPS</h1> -->
+			<div id="laps">
+				<p id="laprecord"><h1 id="hd">LAPS</h1></p>
+			</div>
+			</div>
+		</div>
+	</section>
+
+<script type="text/javascript" src="timer.js"></script>
+
+</body>
+</html>

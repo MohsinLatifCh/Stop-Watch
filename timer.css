@@ -1,0 +1,43 @@
+*{
+	background: orange;
+	text-align: center;
+}
+#stopwatch{
+	text-align: center;
+	font-size: 100px;
+}
+#buttons{
+	padding: 10px;
+	text-align: center;
+}
+.btn:hover {
+        box-shadow: none;
+        transform: translate3d(2px, 4px, 0px);
+        background-color: red;
+        transition-duration: 100ms;
+        transition-property: all;
+}
+.btn{
+	padding: 20px;
+	cursor: pointer;
+}
+.t-c{
+	border: 2px solid black;
+	text-align: center;
+}
+#laps{
+/*	padding: 10px;*/
+	border: 2px solid black;
+	
+}
+.pp{
+	display: inline-block;
+	width: 300px;
+	margin-top: 30px;
+	justify-content: center;
+	
+}
+.pd{
+	font-size: 40px;
+	padding-top: 20px;
+}
